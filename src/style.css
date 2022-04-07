@@ -1,0 +1,63 @@
+body {
+  background-color: #9f9da7;
+  font-size: 1.6rem;
+  font-family: "Inter", sans-serif;
+  color: #2b3e51;
+}
+
+.main-body {
+  padding: 10px 10px 10px 10px;
+}
+
+.main-body > p {
+  font-weight: normal;
+  text-align: left;
+  font-size: 0.5em;
+}
+
+.task-panel {
+  background-color: #fff;
+  width: 35%;
+  margin: 30px auto;
+  text-align: center;
+  padding: 0 0 0 0;
+  border-radius: 4px;
+  box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
+}
+
+.header-section {
+  font-size: 14px;
+  width: 100%;
+  padding: 10px 0;
+  height: 100px;
+  background-image: linear-gradient(#ff9d2f, #ff6126);
+  border-bottom-left-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+}
+
+.checkbox {
+  font-size: 0.55em;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.checkbox > p {
+  margin-right: auto;
+}
+
+.icons {
+  font-size: 1.5em;
+  justify-content: flex-end;
+}
+
+.endsection {
+  display: flex;
+  font-size: 0.65em;
+  font-weight: 600;
+  align-content: center;
+}
+
+.undonetask {
+  margin-right: auto;
+}
